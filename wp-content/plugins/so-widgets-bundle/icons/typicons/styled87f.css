@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'sow-typicons';
+	src:url('font/typiconsa6a5.eot?map0iz');
+	src:url('font/typiconsd41d.eot?#iefixmap0iz') format('embedded-opentype'),
+	url('font/typiconsa6a5.woff?map0iz') format('woff'),
+	url('font/typiconsa6a5.ttf?map0iz') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.sow-icon-typicons {
+	font-family: 'sow-typicons';
+	display: inline-block;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.sow-icon-typicons[data-sow-icon]:before {
+	content: attr(data-sow-icon);
+}
